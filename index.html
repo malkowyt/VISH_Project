@@ -5,7 +5,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="d3.js"></script>
 </head>
-<body>
+<body onload="setView()">
 <h1>Overview Credits</h1>
 <ul>
     <li><a class="active" href="index.html">Home</a></li>
@@ -23,11 +23,33 @@
  </div>
 </div>-->
 
+<div class="dropdown" onchange="changeCurrency()">
+    <label id="lblOptionCurrency" for="optionCurrency">Currency</label>
+    <select id="optionCurrency">
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+    </select>
+</div>
 <div class="dropdown" onchange="changePercVal()">
     <label for="option">Scale</label>
     <select id="option">
-        <option value="perc">Percentage</option>
-        <option value="USD">US-Dollar</option>
+        <option value="percentage">Percentage</option>
+        <option value="currency">Currency</option>
     </select>
 </div>
+<script>
+function setView(){
+  var optList = document.getElementById("option");
+  var selOpt = optList.options[optList.selectedIndex].value;
+  var setDisp;
+  if (selOpt == "currency") {
+	  setDisp = '';
+  } else {
+	  setDisp = 'hidden';
+  }
+  document.getElementById("optionCurrency").style.visibility = setDisp;
+  document.getElementById("lblOptionCurrency").style.visibility = setDisp;
+}	
+</script>
 </body>
