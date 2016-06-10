@@ -16,7 +16,7 @@ var duration = 750,
 	shift = 200;
 
 var partition = d3.layout.partition()
-    .value(function(d) { return d.ProjectAmount; });
+    .value(function(d) { return d.ProjectAmountEUR; });
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -63,6 +63,7 @@ function postProcessData(data) {
                 ))
             ))
         ));
+        data[amountPct] = 1;
         data.children.forEach(type => {
             type[amountPct] = type[amountEur] / data[amountEur];
             type.children.forEach(subType => {
