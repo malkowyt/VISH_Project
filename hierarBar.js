@@ -12,7 +12,7 @@ var color = d3.scale.ordinal()
     //.range(["steelblue", "#ccc"]);
 
 var duration = 750,
-    delay = 25
+    delay = 25,
 	shift = 200;
 
 var partition = d3.layout.partition()
@@ -45,10 +45,35 @@ svg.append("g")
 d3.json("data/data_credit.json", function(error, root) {
   if (error) throw error;
 
+  postProcessData(root);
+
   partition.nodes(root);
   x.domain([0, root.value]).nice();
   down(root, 0);
 });
+
+function postProcessData(data) {
+    ["ProjectAmount", "WholeSyndicationAmount", "Amount", "UnderwritingAmount", "OwnSynAmount", "FinalTakeAmount"].forEach(amount => {
+        var amountEur = amount + "EUR",
+            amountPct = amount + "Pct";
+        data[amountEur] = d3.sum(data.children.map(type =>
+            type[amountEur] = d3.sum(type.children.map(subType =>
+                subType[amountEur] = d3.sum(subType.children.map(deal =>
+                    deal[amountEur] = deal[amount] / deal.FXrateEUR
+                ))
+            ))
+        ));
+        data.children.forEach(type => {
+            type[amountPct] = type[amountEur] / data[amountEur];
+            type.children.forEach(subType => {
+                subType[amountPct] = subType[amountEur] / type[amountEur];
+                subType.children.forEach(deal => {
+                    deal[amountPct] = deal[amountEur] / subType[amountEur];
+                });
+            });
+        });
+    })
+}
 
 function down(d, i) {
   if (!d.children || this.__transition__) return;
