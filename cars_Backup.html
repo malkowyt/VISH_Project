@@ -36,19 +36,19 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
  */
 
 // setup x
-var xValue = function(d) { return d["FinalTakeAmount"];}, // data -> value
+var xValue = function(d) { return d["0-60 mph (s)"];}, // data -> value
     xScale = d3.scale.linear().range([0, width]), // value -> display
     xMap = function(d) { return xScale(xValue(d));}, // data -> display
     xAxis = d3.svg.axis().scale(xScale).orient("bottom");
 
 // setup y
-var yValue = function(d) { return d["UnderwritingAmount"];}, // data -> value
+var yValue = function(d) { return d["power (hp)"];}, // data -> value
     yScale = d3.scale.linear().range([height, 0]), // value -> display
     yMap = function(d) { return yScale(yValue(d));}, // data -> display
     yAxis = d3.svg.axis().scale(yScale).orient("left");
 
 // setup fill color
-var cValue = function(d) { return d["AssetType"];},
+var cValue = function(d) { return d["manufacturer"];},
     color = d3.scale.category10();
         //color = d3.scale.category30();
 
@@ -65,13 +65,13 @@ var tooltip = d3.select("body").append("div")
     .style("opacity", 0);
 
 // load data
-d3.csv("data/data_credit.csv", function(data) {
+d3.csv("data/cars.csv", function(data) {
         "use strict";
         console.log("data:", data);
         // convert variables from string to float
         data.forEach(function(d) {
-        d["FinalTakeAmount"] = parseFloat(d["FinalTakeAmount"]);
-        d["UnderwritingAmount"] = parseFloat(d["UnderwritingAmount"]);
+        d["0-60 mph (s)"] = parseFloat(d["0-60 mph (s)"]);
+        d["power (hp)"] = parseFloat(d["power (hp)"]);
         });
 
   // don't want dots overlapping axis, so add in buffer to data domain
@@ -88,7 +88,7 @@ d3.csv("data/data_credit.csv", function(data) {
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("FinalTakeAmount");
+      .text("0-60 mph (s)");
 
   // y-axis
   svg.append("g")
@@ -100,7 +100,7 @@ d3.csv("data/data_credit.csv", function(data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("UnderwritingAmount");
+      .text("power (hp)");
 
   // draw dots
   svg.selectAll(".dot")
@@ -115,7 +115,7 @@ d3.csv("data/data_credit.csv", function(data) {
           tooltip.transition()
                .duration(200)
                .style("opacity", .9);
-          tooltip.html(d["Dealname"] + " " + d["AssetType"] + "<br/> (" + xValue(d)
+          tooltip.html(d["manufacturer"] + " " + d["name"] + "<br/> (" + xValue(d)
                 + ", " + yValue(d) + ")")
                .style("left", (d3.event.pageX + 5) + "px")
                .style("top", (d3.event.pageY - 28) + "px");
@@ -152,7 +152,7 @@ d3.csv("data/data_credit.csv", function(data) {
                 .attr("y", -10)
                 .attr("dy", ".35em")
                 .style("text-anchor", "end")
-                .text("AssetType");
+                .text("manufacturer");
 });
 
 </script>
