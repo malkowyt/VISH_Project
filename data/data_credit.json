@@ -70,14 +70,14 @@
            {
              "name": "Deal42",
              "SubType": 0,
-             "ProjectAmount": 2000,
+             "ProjectAmount": 200,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": 1400,
-             "UnderwritingAmount": 1400,
+             "Amount": 140,
+             "UnderwritingAmount": 140,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": 0
+             "FinalTakeAmount": 140
            }
          ]
        },
@@ -1006,12 +1006,12 @@
            {
              "name": "Deal79",
              "SubType": 0,
-             "ProjectAmount": 1652,
+             "ProjectAmount": 165.2,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": 1652,
-             "UnderwritingAmount": 0,
+             "Amount": 165.2,
+             "UnderwritingAmount": 120,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 60
            },
@@ -1976,11 +1976,11 @@
              "ProjectAmount": 272,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
-             "WholeSyndicationAmount": 0,
-             "Amount": 0,
-             "UnderwritingAmount": 0,
+             "WholeSyndicationAmount": 220,
+             "Amount": 272,
+             "UnderwritingAmount": 200,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": 0
+             "FinalTakeAmount": 100
            }
          ]
        }
