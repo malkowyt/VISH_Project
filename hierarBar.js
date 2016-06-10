@@ -16,8 +16,34 @@ var duration = 750,
 	shift = 200;
 
 var partition = d3.layout.partition()
-    .value(function(d) { return d.ProjectAmount; });
+    .value(function(d) { return convertCurrency(d); });
 
+function convertCurrency(d){
+	var ratio;
+	var optList = document.getElementById("optionCurrency");
+    var selOpt = optList.options[optList.selectedIndex].value;
+    
+	if (d.Currency == selOpt){
+		return d.ProjectAmount;
+	} else {
+		switch (selOpt){
+			case "EUR":
+				ratio = 1 / d.FXrateEUR;
+				break;
+			case "USD":
+				ratio = 1 / d.FXrateEUR * 1.1349;
+				break;
+			case "GBP":
+				ratio = 1 / d.FXrateEUR * 0.7872;
+				break;
+		}
+		
+		return d.ProjectAmount * ratio;
+	}
+}
+	
+	
+	
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("top");
@@ -245,5 +271,16 @@ function changePercVal(){
   //TODO change view
   var optList = document.getElementById("option");
   var selOpt = optList.options[optList.selectedIndex].value;
-  alert(selOpt);
+  var setDisp;
+  if (selOpt == "currency") {
+	  setDisp = '';
+  } else {
+	  setDisp = 'hidden';
+  }
+  document.getElementById("optionCurrency").style.visibility = setDisp;
+  document.getElementById("lblOptionCurrency").style.visibility = setDisp;
+}
+function changeCurrency(){
+  //TODO change view
+  document.location.reload();
 }
