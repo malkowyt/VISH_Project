@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <head>
-<link href="css/style.css" type="text/css" rel="stylesheet">
-<h1>Overview Credits</h1>
- <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="Cars.html">Vorlage</a></li>
-  <li><a href="about.html">About</a></li>
-</ul>
+    <meta charset="utf-8">
+    <title>VISH Project</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="d3.js"></script>
 </head>
-
 <body>
+<h1>Overview Credits</h1>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cars.html">Vorlage</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
 <h2>Segment View</h2>
+<script src="hierarBar.js"></script>
 
-   <script src="//d3js.org/d3.v3.min.js"></script>
-   <script src="hierarBar.js"></script>
+<!--<div class="dropdown">
+ <button class="dropbtn">Scale</button>
+ <div class="dropdown-content">
+  <a href="#">Percentage</a>
+  <a href="#">USD</a>
+ </div>
+</div>-->
 
-   <!--<div class="dropdown">
-    <button class="dropbtn">Scale</button>
-    <div class="dropdown-content">
-     <a href="#">Percentage</a>
-     <a href="#">USD</a>
-    </div>
-   </div>-->
-   
-   <div class="dropdown" onchange="changePercVal()">Scale
-   <select id="option" >
-         <option value="perc">Percentage</option>
-         <option value="USD">US-Dollar</option>
-   </select>
-   </div>
+<div class="dropdown" onchange="changePercVal()">
+    <label for="option">Scale</label>
+    <select id="option">
+        <option value="perc">Percentage</option>
+        <option value="USD">US-Dollar</option>
+    </select>
+</div>
 </body>
