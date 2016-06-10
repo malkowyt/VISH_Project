@@ -1796,11 +1796,11 @@
          ]
        },
        {
-         "name": "Tanker Handysize (Range: TDW 10.000 - 59.999)",
+         "name": "Tanker Handysize",
          "children": [
            {
              "name": "Deal130",
-             "SubType": "Tanker Handysize (Range: TDW 10.000 - 59.999)",
+             "SubType": "Tanker Handysize",
              "ProjectAmount": "19.8",
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1812,7 +1812,7 @@
            },
            {
              "name": "Deal137",
-             "SubType": "Tanker Handysize (Range: TDW 10.000 - 59.999)",
+             "SubType": "Tanker Handysize",
              "ProjectAmount": "92.1",
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1825,11 +1825,11 @@
          ]
        },
        {
-         "name": "Tanker Aframax (Range: TDW 80.000 - 119.999)",
+         "name": "Tanker Aframax",
          "children": [
            {
              "name": "Deal132",
-             "SubType": "Tanker Aframax (Range: TDW 80.000 - 119.999)",
+             "SubType": "Tanker Aframax",
              "ProjectAmount": "75.6",
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1842,11 +1842,11 @@
          ]
        },
        {
-         "name": "Chemikalientanker (Range: alle Chem. Tanker)",
+         "name": "Chemikalientanker",
          "children": [
            {
              "name": "Deal133",
-             "SubType": "Chemikalientanker (Range: alle Chem. Tanker)",
+             "SubType": "Chemikalientanker",
              "ProjectAmount": 84,
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1859,11 +1859,11 @@
          ]
        },
        {
-         "name": "Tanker Suezmax (Range: TDW 120.000 - 199.999)",
+         "name": "Tanker Suezmax",
          "children": [
            {
              "name": "Deal134",
-             "SubType": "Tanker Suezmax (Range: TDW 120.000 - 199.999)",
+             "SubType": "Tanker Suezmax",
              "ProjectAmount": "84.7",
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1876,11 +1876,11 @@
          ]
        },
        {
-         "name": "Containerschiffe Handymax (Range: TEU 1.300 - 1.999)",
+         "name": "Containerschiffe Handymax",
          "children": [
            {
              "name": "Deal135",
-             "SubType": "Containerschiffe Handymax (Range: TEU 1.300 - 1.999)",
+             "SubType": "Containerschiffe Handymax",
              "ProjectAmount": 85,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1922,11 +1922,11 @@
          ]
        },
        {
-         "name": "Tanker VLCC (Range: über TDW 200.000)",
+         "name": "Tanker VLCC",
          "children": [
            {
              "name": "Deal139",
-             "SubType": "Tanker VLCC (Range: über TDW 200.000)",
+             "SubType": "Tanker VLCC",
              "ProjectAmount": 120,
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1938,7 +1938,7 @@
            },
            {
              "name": "Deal140",
-             "SubType": "Tanker VLCC (Range: über TDW 200.000)",
+             "SubType": "Tanker VLCC",
              "ProjectAmount": 120,
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1951,11 +1951,11 @@
          ]
        },
        {
-         "name": "LNG Tanker (Range: alle LNG Tanker)",
+         "name": "LNG Tanker",
          "children": [
            {
              "name": "Deal143",
-             "SubType": "LNG Tanker (Range: alle LNG Tanker)",
+             "SubType": "LNG Tanker",
              "ProjectAmount": 270,
              "Currency": "USD",
              "FXrateEUR": "1.1349",
@@ -1968,11 +1968,11 @@
          ]
        },
        {
-         "name": "Containerschiffe Postpanamax (Range: über 7.500 TEU)",
+         "name": "Containerschiffe Postpanamax",
          "children": [
            {
              "name": "Deal144",
-             "SubType": "Containerschiffe Postpanamax (Range: über 7.500 TEU)",
+             "SubType": "Containerschiffe Postpanamax",
              "ProjectAmount": 272,
              "Currency": "USD",
              "FXrateEUR": "1.1349",
