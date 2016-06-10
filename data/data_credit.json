@@ -12,7 +12,7 @@
              "SubType": 0,
              "ProjectAmount": 100,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 100,
              "UnderwritingAmount": 100,
@@ -24,7 +24,7 @@
              "SubType": 0,
              "ProjectAmount": 114,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 114,
              "UnderwritingAmount": 114,
@@ -34,9 +34,9 @@
            {
              "name": "Deal28",
              "SubType": 0,
-             "ProjectAmount": "123.5",
+             "ProjectAmount": 123.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 40,
              "UnderwritingAmount": 40,
@@ -48,7 +48,7 @@
              "SubType": 0,
              "ProjectAmount": 497,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 497,
              "UnderwritingAmount": 0,
@@ -60,7 +60,7 @@
              "SubType": 0,
              "ProjectAmount": 670,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 670,
              "UnderwritingAmount": 0,
@@ -72,7 +72,7 @@
              "SubType": 0,
              "ProjectAmount": 2000,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 1400,
              "UnderwritingAmount": 1400,
@@ -87,45 +87,45 @@
            {
              "name": "Deal1",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
-             "ProjectAmount": "2.5",
+             "ProjectAmount": 2.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "2.5",
-             "UnderwritingAmount": "2.5",
+             "Amount": 2.5,
+             "UnderwritingAmount": 2.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 5
            },
            {
              "name": "Deal3",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
-             "ProjectAmount": "31.5",
+             "ProjectAmount": 31.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "31.5",
-             "UnderwritingAmount": "31.5",
+             "Amount": 31.5,
+             "UnderwritingAmount": 31.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            },
            {
              "name": "Deal5",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
-             "ProjectAmount": "48.9",
+             "ProjectAmount": 48.9,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "48.9",
-             "UnderwritingAmount": "48.9",
+             "Amount": 48.9,
+             "UnderwritingAmount": 48.9,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "48.94"
+             "FinalTakeAmount": 48.94
            },
            {
              "name": "Deal7",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
              "ProjectAmount": 50,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 50,
              "UnderwritingAmount": 50,
@@ -137,8 +137,8 @@
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
              "ProjectAmount": 65,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "32.5",
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 32.5,
              "Amount": 65,
              "UnderwritingAmount": 65,
              "OwnSynAmount": 0,
@@ -149,7 +149,7 @@
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
              "ProjectAmount": 66,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 66,
              "UnderwritingAmount": 66,
@@ -159,21 +159,21 @@
            {
              "name": "Deal22",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
-             "ProjectAmount": "109.2",
+             "ProjectAmount": 109.2,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "99.9",
-             "Amount": "109.2",
-             "UnderwritingAmount": "109.2",
-             "OwnSynAmount": "109.2",
-             "FinalTakeAmount": "18.6"
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 99.9,
+             "Amount": 109.2,
+             "UnderwritingAmount": 109.2,
+             "OwnSynAmount": 109.2,
+             "FinalTakeAmount": 18.6
            },
            {
              "name": "Deal26",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
              "ProjectAmount": 114,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 114,
              "UnderwritingAmount": 114,
@@ -183,12 +183,12 @@
            {
              "name": "Deal31",
              "SubType": "Narrowbodies Next Generation (>155 Sitze)",
-             "ProjectAmount": "127.5",
+             "ProjectAmount": 127.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "127.5",
-             "UnderwritingAmount": "127.5",
+             "Amount": 127.5,
+             "UnderwritingAmount": 127.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            }
@@ -200,26 +200,26 @@
            {
              "name": "Deal2",
              "SubType": "Turboprop",
-             "ProjectAmount": "16.5",
+             "ProjectAmount": 16.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "16.5",
-             "UnderwritingAmount": "16.5",
+             "Amount": 16.5,
+             "UnderwritingAmount": 16.5,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "16.5"
+             "FinalTakeAmount": 16.5
            },
            {
              "name": "Deal24",
              "SubType": "Turboprop",
-             "ProjectAmount": "110.3",
+             "ProjectAmount": 110.3,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 15,
-             "Amount": "110.3",
-             "UnderwritingAmount": "110.3",
+             "Amount": 110.3,
+             "UnderwritingAmount": 110.3,
              "OwnSynAmount": 60,
-             "FinalTakeAmount": "381.2"
+             "FinalTakeAmount": 381.2
            }
          ]
        },
@@ -231,7 +231,7 @@
              "SubType": "Widebodies Next Generation Mittelstrecke",
              "ProjectAmount": 46,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 46,
              "UnderwritingAmount": 46,
@@ -255,7 +255,7 @@
              "SubType": "Widebodies Next Generation Mittelstrecke",
              "ProjectAmount": 75,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 75,
              "UnderwritingAmount": 75,
@@ -267,12 +267,12 @@
              "SubType": "Widebodies Next Generation Mittelstrecke",
              "ProjectAmount": 125,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "111.25",
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 111.25,
              "Amount": 125,
              "UnderwritingAmount": 125,
-             "OwnSynAmount": "111.25",
-             "FinalTakeAmount": "13.75"
+             "OwnSynAmount": 111.25,
+             "FinalTakeAmount": 13.75
            },
            {
              "name": "Deal33",
@@ -303,7 +303,7 @@
              "SubType": "Widebodies Next Generation Mittelstrecke",
              "ProjectAmount": 225,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 225,
              "UnderwritingAmount": 225,
@@ -330,24 +330,24 @@
            {
              "name": "Deal6",
              "SubType": "Narrowbodies Next Generation (100-155 Sitze)",
-             "ProjectAmount": "48.9",
+             "ProjectAmount": 48.9,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "48.9",
-             "UnderwritingAmount": "48.9",
+             "Amount": 48.9,
+             "UnderwritingAmount": 48.9,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "244.7"
+             "FinalTakeAmount": 244.7
            },
            {
              "name": "Deal8",
              "SubType": "Narrowbodies Next Generation (100-155 Sitze)",
-             "ProjectAmount": "50.5",
+             "ProjectAmount": 50.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "50.5",
-             "UnderwritingAmount": "50.5",
+             "Amount": 50.5,
+             "UnderwritingAmount": 50.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 103
            },
@@ -366,14 +366,14 @@
            {
              "name": "Deal18",
              "SubType": "Narrowbodies Next Generation (100-155 Sitze)",
-             "ProjectAmount": "75.456",
+             "ProjectAmount": 75.456,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "75.456",
-             "UnderwritingAmount": "75.456",
+             "Amount": 75.456,
+             "UnderwritingAmount": 75.456,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "121.8"
+             "FinalTakeAmount": 121.8
            }
          ]
        },
@@ -383,12 +383,12 @@
            {
              "name": "Deal10",
              "SubType": "Regional Jets (=70 Sitze)",
-             "ProjectAmount": "64.5",
+             "ProjectAmount": 64.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "64.5",
-             "UnderwritingAmount": "64.5",
+             "Amount": 64.5,
+             "UnderwritingAmount": 64.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            }
@@ -402,7 +402,7 @@
              "SubType": "Narrowbodies Classic (>155 Sitze)",
              "ProjectAmount": 71,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 71,
              "UnderwritingAmount": 71,
@@ -414,8 +414,8 @@
              "SubType": "Narrowbodies Classic (>155 Sitze)",
              "ProjectAmount": 79,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "39.5",
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 39.5,
              "Amount": 79,
              "UnderwritingAmount": 79,
              "OwnSynAmount": 79,
@@ -431,7 +431,7 @@
              "SubType": "Narrowbodies Re-Engined",
              "ProjectAmount": 75,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 75,
              "UnderwritingAmount": 75,
@@ -460,7 +460,7 @@
              "SubType": "Widebodies Next Generation Langstrecke",
              "ProjectAmount": 75,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 75,
              "UnderwritingAmount": 75,
@@ -472,7 +472,7 @@
              "SubType": "Widebodies Next Generation Langstrecke",
              "ProjectAmount": 100,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 100,
              "UnderwritingAmount": 0,
@@ -482,21 +482,21 @@
            {
              "name": "Deal23",
              "SubType": "Widebodies Next Generation Langstrecke",
-             "ProjectAmount": "109.2",
+             "ProjectAmount": 109.2,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "99.9",
-             "Amount": "109.2",
-             "UnderwritingAmount": "109.2",
-             "OwnSynAmount": "99.9",
-             "FinalTakeAmount": "9.3"
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 99.9,
+             "Amount": 109.2,
+             "UnderwritingAmount": 109.2,
+             "OwnSynAmount": 99.9,
+             "FinalTakeAmount": 9.3
            },
            {
              "name": "Deal35",
              "SubType": "Widebodies Next Generation Langstrecke",
              "ProjectAmount": 225,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 225,
              "UnderwritingAmount": 225,
@@ -508,7 +508,7 @@
              "SubType": "Widebodies Next Generation Langstrecke",
              "ProjectAmount": 250,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 250,
              "Amount": 250,
              "UnderwritingAmount": 250,
@@ -525,7 +525,7 @@
              "SubType": "Freighter Next Generation Langstrecke",
              "ProjectAmount": 118,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 118,
              "UnderwritingAmount": 0,
@@ -537,7 +537,7 @@
              "SubType": "Freighter Next Generation Langstrecke",
              "ProjectAmount": 125,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 88,
              "Amount": 125,
              "UnderwritingAmount": 125,
@@ -547,12 +547,12 @@
            {
              "name": "Deal32",
              "SubType": "Freighter Next Generation Langstrecke",
-             "ProjectAmount": "142.5",
+             "ProjectAmount": 142.5,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "142.5",
-             "Amount": "142.5",
-             "UnderwritingAmount": "142.5",
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 142.5,
+             "Amount": 142.5,
+             "UnderwritingAmount": 142.5,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            }
@@ -566,7 +566,7 @@
              "SubType": "Business Jets",
              "ProjectAmount": 2310,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 250,
              "UnderwritingAmount": 250,
@@ -598,7 +598,7 @@
            {
              "name": "Deal45",
              "SubType": 0,
-             "ProjectAmount": "26.802",
+             "ProjectAmount": 26.802,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
@@ -617,7 +617,7 @@
              "Amount": 30,
              "UnderwritingAmount": 30,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "43.25"
+             "FinalTakeAmount": 43.25
            },
            {
              "name": "Deal47",
@@ -634,11 +634,11 @@
            {
              "name": "Deal48",
              "SubType": 0,
-             "ProjectAmount": "31.5",
+             "ProjectAmount": 31.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "31.5",
+             "Amount": 31.5,
              "UnderwritingAmount": 12,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 12
@@ -646,14 +646,14 @@
            {
              "name": "Deal49",
              "SubType": 0,
-             "ProjectAmount": "32.5",
+             "ProjectAmount": 32.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "32.5",
-             "UnderwritingAmount": "32.5",
-             "OwnSynAmount": "20.001",
-             "FinalTakeAmount": "12.499"
+             "Amount": 32.5,
+             "UnderwritingAmount": 32.5,
+             "OwnSynAmount": 20.001,
+             "FinalTakeAmount": 12.499
            },
            {
              "name": "Deal50",
@@ -685,11 +685,11 @@
              "ProjectAmount": 46,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "21.25",
+             "WholeSyndicationAmount": 21.25,
              "Amount": 46,
              "UnderwritingAmount": 46,
-             "OwnSynAmount": "23.75",
-             "FinalTakeAmount": "27.25"
+             "OwnSynAmount": 23.75,
+             "FinalTakeAmount": 27.25
            },
            {
              "name": "Deal53",
@@ -699,9 +699,9 @@
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
              "Amount": 47,
-             "UnderwritingAmount": "25.75",
+             "UnderwritingAmount": 25.75,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "25.75"
+             "FinalTakeAmount": 25.75
            },
            {
              "name": "Deal54",
@@ -778,26 +778,26 @@
            {
              "name": "Deal60",
              "SubType": 0,
-             "ProjectAmount": "81.91",
+             "ProjectAmount": 81.91,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "81.91",
-             "UnderwritingAmount": "33.455",
+             "Amount": 81.91,
+             "UnderwritingAmount": 33.455,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "33.455"
+             "FinalTakeAmount": 33.455
            },
            {
              "name": "Deal61",
              "SubType": 0,
-             "ProjectAmount": "135.5",
+             "ProjectAmount": 135.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "135.5",
-             "UnderwritingAmount": "9.86",
+             "Amount": 135.5,
+             "UnderwritingAmount": 9.86,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "9.86"
+             "FinalTakeAmount": 9.86
            },
            {
              "name": "Deal62",
@@ -937,11 +937,11 @@
              "ProjectAmount": 360,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "108.45",
+             "WholeSyndicationAmount": 108.45,
              "Amount": 360,
-             "UnderwritingAmount": "166.5",
-             "OwnSynAmount": "108.45",
-             "FinalTakeAmount": "58.05"
+             "UnderwritingAmount": 166.5,
+             "OwnSynAmount": 108.45,
+             "FinalTakeAmount": 58.05
            },
            {
              "name": "Deal74",
@@ -977,7 +977,7 @@
              "Amount": 750,
              "UnderwritingAmount": 100,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "72.5"
+             "FinalTakeAmount": 72.5
            },
            {
              "name": "Deal77",
@@ -987,7 +987,7 @@
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
              "Amount": 830,
-             "UnderwritingAmount": "124.999821",
+             "UnderwritingAmount": 124.999821,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 125
            },
@@ -1008,7 +1008,7 @@
              "SubType": 0,
              "ProjectAmount": 1652,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 1652,
              "UnderwritingAmount": 0,
@@ -1020,24 +1020,24 @@
              "SubType": 0,
              "ProjectAmount": 64,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "52.5",
-             "UnderwritingAmount": "52.5",
+             "Amount": 52.5,
+             "UnderwritingAmount": 52.5,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "52.5"
+             "FinalTakeAmount": 52.5
            },
            {
              "name": "Deal81",
              "SubType": 0,
-             "ProjectAmount": "38.7",
+             "ProjectAmount": 38.7,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "38.7",
-             "UnderwritingAmount": "38.7",
+             "Amount": 38.7,
+             "UnderwritingAmount": 38.7,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "8.686"
+             "FinalTakeAmount": 8.686
            }
          ]
        }
@@ -1052,11 +1052,11 @@
            {
              "name": "Deal94",
              "SubType": 0,
-             "ProjectAmount": "154.4",
+             "ProjectAmount": 154.4,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "154.4",
+             "Amount": 154.4,
              "UnderwritingAmount": 0,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
@@ -1069,97 +1069,97 @@
            {
              "name": "Deal82",
              "SubType": "Wind onshore",
-             "ProjectAmount": "23.15",
+             "ProjectAmount": 23.15,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "23.15",
-             "UnderwritingAmount": "23.15",
+             "Amount": 23.15,
+             "UnderwritingAmount": 23.15,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "25.115"
+             "FinalTakeAmount": 25.115
            },
            {
              "name": "Deal83",
              "SubType": "Wind onshore",
-             "ProjectAmount": "24.869",
+             "ProjectAmount": 24.869,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "24.869",
-             "UnderwritingAmount": "24.869",
+             "Amount": 24.869,
+             "UnderwritingAmount": 24.869,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "26.974"
+             "FinalTakeAmount": 26.974
            },
            {
              "name": "Deal84",
              "SubType": "Wind onshore",
-             "ProjectAmount": "29.2",
+             "ProjectAmount": 29.2,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "29.2",
-             "UnderwritingAmount": "29.2",
+             "Amount": 29.2,
+             "UnderwritingAmount": 29.2,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "33.86"
+             "FinalTakeAmount": 33.86
            },
            {
              "name": "Deal87",
              "SubType": "Wind onshore",
-             "ProjectAmount": "37.805",
+             "ProjectAmount": 37.805,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "37.805",
-             "UnderwritingAmount": "37.805",
+             "Amount": 37.805,
+             "UnderwritingAmount": 37.805,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "41.8"
+             "FinalTakeAmount": 41.8
            },
            {
              "name": "Deal88",
              "SubType": "Wind onshore",
-             "ProjectAmount": "47.5",
+             "ProjectAmount": 47.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
              "Amount": 44,
-             "UnderwritingAmount": "29.333",
+             "UnderwritingAmount": 29.333,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "29.333"
+             "FinalTakeAmount": 29.333
            },
            {
              "name": "Deal89",
              "SubType": "Wind onshore",
-             "ProjectAmount": "67.471",
+             "ProjectAmount": 67.471,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "62.8",
-             "UnderwritingAmount": "62.8",
+             "Amount": 62.8,
+             "UnderwritingAmount": 62.8,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            },
            {
              "name": "Deal91",
              "SubType": "Wind onshore",
-             "ProjectAmount": "94.45",
+             "ProjectAmount": 94.45,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "94.45",
-             "UnderwritingAmount": "59.85",
+             "Amount": 94.45,
+             "UnderwritingAmount": 59.85,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "59.85"
+             "FinalTakeAmount": 59.85
            },
            {
              "name": "Deal96",
              "SubType": "Wind onshore",
              "ProjectAmount": 170,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "71.5",
-             "Amount": "146.5",
-             "UnderwritingAmount": "146.5",
-             "OwnSynAmount": "71.5",
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 71.5,
+             "Amount": 146.5,
+             "UnderwritingAmount": 146.5,
+             "OwnSynAmount": 71.5,
              "FinalTakeAmount": 75
            },
            {
@@ -1167,21 +1167,21 @@
              "SubType": "Wind onshore",
              "ProjectAmount": 193,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "37.087",
-             "UnderwritingAmount": "37.087",
+             "Amount": 37.087,
+             "UnderwritingAmount": 37.087,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "37.087"
+             "FinalTakeAmount": 37.087
            },
            {
              "name": "Deal101",
              "SubType": "Wind onshore",
              "ProjectAmount": 707,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "437.5",
+             "Amount": 437.5,
              "UnderwritingAmount": 55,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 55
@@ -1194,50 +1194,50 @@
            {
              "name": "Deal85",
              "SubType": "Solar",
-             "ProjectAmount": "30.361",
+             "ProjectAmount": 30.361,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "30.361",
-             "UnderwritingAmount": "30.361",
+             "Amount": 30.361,
+             "UnderwritingAmount": 30.361,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "244.043"
+             "FinalTakeAmount": 244.043
            },
            {
              "name": "Deal90",
              "SubType": "Solar",
-             "ProjectAmount": "87.37",
+             "ProjectAmount": 87.37,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "51.69",
-             "Amount": "87.368",
-             "UnderwritingAmount": "87.368",
-             "OwnSynAmount": "51.7",
-             "FinalTakeAmount": "35.668"
+             "WholeSyndicationAmount": 51.69,
+             "Amount": 87.368,
+             "UnderwritingAmount": 87.368,
+             "OwnSynAmount": 51.7,
+             "FinalTakeAmount": 35.668
            },
            {
              "name": "Deal93",
              "SubType": "Solar",
-             "ProjectAmount": "148.3",
+             "ProjectAmount": 148.3,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
-             "WholeSyndicationAmount": "49.3",
-             "Amount": "148.3",
-             "UnderwritingAmount": "148.3",
-             "OwnSynAmount": "50.814",
-             "FinalTakeAmount": "97.606"
+             "FXrateEUR": 1.1349,
+             "WholeSyndicationAmount": 49.3,
+             "Amount": 148.3,
+             "UnderwritingAmount": 148.3,
+             "OwnSynAmount": 50.814,
+             "FinalTakeAmount": 97.606
            },
            {
              "name": "Deal98",
              "SubType": "Solar",
-             "ProjectAmount": "269.3",
+             "ProjectAmount": 269.3,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "269.28",
-             "UnderwritingAmount": "76.16",
+             "Amount": 269.28,
+             "UnderwritingAmount": 76.16,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "76.16"
+             "FinalTakeAmount": 76.16
            }
          ]
        },
@@ -1247,38 +1247,38 @@
            {
              "name": "Deal86",
              "SubType": "Wind",
-             "ProjectAmount": "36.5",
+             "ProjectAmount": 36.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "30.5",
-             "UnderwritingAmount": "30.5",
+             "Amount": 30.5,
+             "UnderwritingAmount": 30.5,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "30.5"
+             "FinalTakeAmount": 30.5
            },
            {
              "name": "Deal92",
              "SubType": "Wind",
-             "ProjectAmount": "118.608",
+             "ProjectAmount": 118.608,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "118.608",
-             "UnderwritingAmount": "65.022",
+             "Amount": 118.608,
+             "UnderwritingAmount": 65.022,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "65.022"
+             "FinalTakeAmount": 65.022
            },
            {
              "name": "Deal95",
              "SubType": "Wind",
-             "ProjectAmount": "162.9",
+             "ProjectAmount": 162.9,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "46.871",
-             "UnderwritingAmount": "46.871",
+             "Amount": 46.871,
+             "UnderwritingAmount": 46.871,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "46.871"
+             "FinalTakeAmount": 46.871
            }
          ]
        },
@@ -1290,7 +1290,7 @@
              "SubType": "Pipeline",
              "ProjectAmount": 604,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 604,
              "UnderwritingAmount": 75,
@@ -1307,24 +1307,24 @@
              "SubType": "Closed Cycle Gas Turbine (CCGT) Power Plant",
              "ProjectAmount": 660,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 660,
-             "UnderwritingAmount": "51.5",
+             "UnderwritingAmount": 51.5,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "51.5"
+             "FinalTakeAmount": 51.5
            },
            {
              "name": "Deal102",
              "SubType": "Closed Cycle Gas Turbine (CCGT) Power Plant",
              "ProjectAmount": 1053,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 45,
-             "Amount": "753.3",
-             "UnderwritingAmount": "49.75",
+             "Amount": 753.3,
+             "UnderwritingAmount": 49.75,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "49.75"
+             "FinalTakeAmount": 49.75
            }
          ]
        }
@@ -1341,7 +1341,7 @@
              "SubType": 0,
              "ProjectAmount": 65,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 25,
              "Amount": 65,
              "UnderwritingAmount": 65,
@@ -1368,50 +1368,50 @@
            {
              "name": "Deal103",
              "SubType": "School",
-             "ProjectAmount": "25.923",
+             "ProjectAmount": 25.923,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "23.51",
-             "UnderwritingAmount": "23.51",
+             "Amount": 23.51,
+             "UnderwritingAmount": 23.51,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "23.51"
+             "FinalTakeAmount": 23.51
            },
            {
              "name": "Deal106",
              "SubType": "School",
-             "ProjectAmount": "37.9",
+             "ProjectAmount": 37.9,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "36.756",
-             "UnderwritingAmount": "36.756",
+             "Amount": 36.756,
+             "UnderwritingAmount": 36.756,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "36.756"
+             "FinalTakeAmount": 36.756
            },
            {
              "name": "Deal107",
              "SubType": "School",
-             "ProjectAmount": "46.24",
+             "ProjectAmount": 46.24,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "46.196",
-             "UnderwritingAmount": "46.196",
+             "Amount": 46.196,
+             "UnderwritingAmount": 46.196,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "46.196"
+             "FinalTakeAmount": 46.196
            },
            {
              "name": "Deal108",
              "SubType": "School",
-             "ProjectAmount": "49.326",
+             "ProjectAmount": 49.326,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "48.2",
-             "UnderwritingAmount": "48.2",
+             "Amount": 48.2,
+             "UnderwritingAmount": 48.2,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "48.2"
+             "FinalTakeAmount": 48.2
            },
            {
              "name": "Deal113",
@@ -1428,7 +1428,7 @@
            {
              "name": "Deal114",
              "SubType": "School",
-             "ProjectAmount": "87.738",
+             "ProjectAmount": 87.738,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
@@ -1445,14 +1445,14 @@
            {
              "name": "Deal104",
              "SubType": "Health Services",
-             "ProjectAmount": "26.1",
+             "ProjectAmount": 26.1,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "26.1",
-             "UnderwritingAmount": "26.1",
+             "Amount": 26.1,
+             "UnderwritingAmount": 26.1,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "28.01"
+             "FinalTakeAmount": 28.01
            }
          ]
        },
@@ -1462,14 +1462,14 @@
            {
              "name": "Deal105",
              "SubType": "Street Lighting",
-             "ProjectAmount": "34.8",
+             "ProjectAmount": 34.8,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
+             "FXrateEUR": 0.7872,
              "WholeSyndicationAmount": 0,
-             "Amount": "15.919",
-             "UnderwritingAmount": "15.919",
+             "Amount": 15.919,
+             "UnderwritingAmount": 15.919,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "15.919"
+             "FinalTakeAmount": 15.919
            }
          ]
        },
@@ -1486,7 +1486,7 @@
              "Amount": 50,
              "UnderwritingAmount": 50,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "80.5"
+             "FinalTakeAmount": 80.5
            },
            {
              "name": "Deal110",
@@ -1498,19 +1498,19 @@
              "Amount": 55,
              "UnderwritingAmount": 55,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "106.7"
+             "FinalTakeAmount": 106.7
            },
            {
              "name": "Deal115",
              "SubType": "University",
-             "ProjectAmount": "94.103",
+             "ProjectAmount": 94.103,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "18.9",
-             "Amount": "94.103",
-             "UnderwritingAmount": "94.103",
-             "OwnSynAmount": "37.8",
-             "FinalTakeAmount": "108.8"
+             "WholeSyndicationAmount": 18.9,
+             "Amount": 94.103,
+             "UnderwritingAmount": 94.103,
+             "OwnSynAmount": 37.8,
+             "FinalTakeAmount": 108.8
            }
          ]
        },
@@ -1520,14 +1520,14 @@
            {
              "name": "Deal111",
              "SubType": "Fire Station",
-             "ProjectAmount": "62.4",
+             "ProjectAmount": 62.4,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "45.11",
-             "UnderwritingAmount": "45.11",
+             "Amount": 45.11,
+             "UnderwritingAmount": 45.11,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "45.11"
+             "FinalTakeAmount": 45.11
            }
          ]
        },
@@ -1537,14 +1537,14 @@
            {
              "name": "Deal116",
              "SubType": "Public Building",
-             "ProjectAmount": "104.6",
+             "ProjectAmount": 104.6,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 10,
-             "Amount": "99.4",
-             "UnderwritingAmount": "49.7",
+             "Amount": 99.4,
+             "UnderwritingAmount": 49.7,
              "OwnSynAmount": 10,
-             "FinalTakeAmount": "39.7"
+             "FinalTakeAmount": 39.7
            }
          ]
        },
@@ -1559,8 +1559,8 @@
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 20,
              "Amount": 140,
-             "UnderwritingAmount": "46.1",
-             "OwnSynAmount": "11.1",
+             "UnderwritingAmount": 46.1,
+             "OwnSynAmount": 11.1,
              "FinalTakeAmount": 35
            },
            {
@@ -1571,21 +1571,21 @@
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 40,
              "Amount": 165,
-             "UnderwritingAmount": "152.5",
+             "UnderwritingAmount": 152.5,
              "OwnSynAmount": 40,
-             "FinalTakeAmount": "112.5"
+             "FinalTakeAmount": 112.5
            },
            {
              "name": "Deal121",
              "SubType": "Public Road",
-             "ProjectAmount": "760.14",
+             "ProjectAmount": 760.14,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
              "Amount": 0,
-             "UnderwritingAmount": "113.121",
+             "UnderwritingAmount": 113.121,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "113.121"
+             "FinalTakeAmount": 113.121
            }
          ]
        },
@@ -1595,14 +1595,14 @@
            {
              "name": "Deal120",
              "SubType": "Energy from Waste",
-             "ProjectAmount": "268.002",
+             "ProjectAmount": 268.002,
              "Currency": "GBP",
-             "FXrateEUR": "0.7872",
-             "WholeSyndicationAmount": "12.788",
-             "Amount": "55.589",
-             "UnderwritingAmount": "55.022",
-             "OwnSynAmount": "12.788",
-             "FinalTakeAmount": "42.234"
+             "FXrateEUR": 0.7872,
+             "WholeSyndicationAmount": 12.788,
+             "Amount": 55.589,
+             "UnderwritingAmount": 55.022,
+             "OwnSynAmount": 12.788,
+             "FinalTakeAmount": 42.234
            }
          ]
        }
@@ -1629,26 +1629,26 @@
            {
              "name": "Deal123",
              "SubType": 0,
-             "ProjectAmount": "16.5",
+             "ProjectAmount": 16.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "16.5",
-             "Amount": "16.5",
-             "UnderwritingAmount": "16.5",
-             "OwnSynAmount": "16.5",
+             "WholeSyndicationAmount": 16.5,
+             "Amount": 16.5,
+             "UnderwritingAmount": 16.5,
+             "OwnSynAmount": 16.5,
              "FinalTakeAmount": 0
            },
            {
              "name": "Deal124",
              "SubType": 0,
-             "ProjectAmount": "41.7",
+             "ProjectAmount": 41.7,
              "Currency": "EUR",
              "FXrateEUR": 1,
-             "WholeSyndicationAmount": "20.85",
-             "Amount": "41.7",
-             "UnderwritingAmount": "41.7",
-             "OwnSynAmount": "20.85",
-             "FinalTakeAmount": "20.85"
+             "WholeSyndicationAmount": 20.85,
+             "Amount": 41.7,
+             "UnderwritingAmount": 41.7,
+             "OwnSynAmount": 20.85,
+             "FinalTakeAmount": 20.85
            },
            {
              "name": "Deal125",
@@ -1675,7 +1675,7 @@
            {
              "name": "Deal126",
              "SubType": 0,
-             "ProjectAmount": "37.5",
+             "ProjectAmount": 37.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
@@ -1726,12 +1726,12 @@
            {
              "name": "Deal128",
              "SubType": "Alstom H3 Hybrid",
-             "ProjectAmount": "36.7",
+             "ProjectAmount": 36.7,
              "Currency": "EUR",
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
-             "Amount": "36.7",
-             "UnderwritingAmount": "36.7",
+             "Amount": 36.7,
+             "UnderwritingAmount": 36.7,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
            }
@@ -1748,9 +1748,9 @@
            {
              "name": "Deal131",
              "SubType": 0,
-             "ProjectAmount": "40.975",
+             "ProjectAmount": 40.975,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 0,
              "UnderwritingAmount": 0,
@@ -1760,11 +1760,11 @@
            {
              "name": "Deal136",
              "SubType": 0,
-             "ProjectAmount": "92.1",
+             "ProjectAmount": 92.1,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "92.099",
+             "Amount": 92.099,
              "UnderwritingAmount": 0,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
@@ -1772,11 +1772,11 @@
            {
              "name": "Deal141",
              "SubType": 0,
-             "ProjectAmount": "174.25",
+             "ProjectAmount": 174.25,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "174.25",
+             "Amount": 174.25,
              "UnderwritingAmount": 40,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 40
@@ -1789,9 +1789,9 @@
              "FXrateEUR": 1,
              "WholeSyndicationAmount": 0,
              "Amount": 245,
-             "UnderwritingAmount": "43.555",
+             "UnderwritingAmount": 43.555,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "43.555"
+             "FinalTakeAmount": 43.555
            }
          ]
        },
@@ -1801,11 +1801,11 @@
            {
              "name": "Deal130",
              "SubType": "Tanker Handysize",
-             "ProjectAmount": "19.8",
+             "ProjectAmount": 19.8,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "19.8",
+             "Amount": 19.8,
              "UnderwritingAmount": 0,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
@@ -1813,11 +1813,11 @@
            {
              "name": "Deal137",
              "SubType": "Tanker Handysize",
-             "ProjectAmount": "92.1",
+             "ProjectAmount": 92.1,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "92.1",
+             "Amount": 92.1,
              "UnderwritingAmount": 0,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 0
@@ -1830,14 +1830,14 @@
            {
              "name": "Deal132",
              "SubType": "Tanker Aframax",
-             "ProjectAmount": "75.6",
+             "ProjectAmount": 75.6,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "75.6",
-             "UnderwritingAmount": "75.6",
+             "Amount": 75.6,
+             "UnderwritingAmount": 75.6,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "75.6"
+             "FinalTakeAmount": 75.6
            }
          ]
        },
@@ -1849,7 +1849,7 @@
              "SubType": "Chemikalientanker",
              "ProjectAmount": 84,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 84,
              "UnderwritingAmount": 0,
@@ -1864,14 +1864,14 @@
            {
              "name": "Deal134",
              "SubType": "Tanker Suezmax",
-             "ProjectAmount": "84.7",
+             "ProjectAmount": 84.7,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
-             "Amount": "84.7",
-             "UnderwritingAmount": "42.35",
+             "Amount": 84.7,
+             "UnderwritingAmount": 42.35,
              "OwnSynAmount": 0,
-             "FinalTakeAmount": "42.35"
+             "FinalTakeAmount": 42.35
            }
          ]
        },
@@ -1900,7 +1900,7 @@
              "SubType": "Offshore Vessels",
              "ProjectAmount": 115,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 115,
              "UnderwritingAmount": 38,
@@ -1912,7 +1912,7 @@
              "SubType": "Offshore Vessels",
              "ProjectAmount": 1200,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 1200,
              "UnderwritingAmount": 50,
@@ -1929,7 +1929,7 @@
              "SubType": "Tanker VLCC",
              "ProjectAmount": 120,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 0,
              "UnderwritingAmount": 0,
@@ -1941,7 +1941,7 @@
              "SubType": "Tanker VLCC",
              "ProjectAmount": 120,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 80,
              "Amount": 120,
              "UnderwritingAmount": 0,
@@ -1958,7 +1958,7 @@
              "SubType": "LNG Tanker",
              "ProjectAmount": 270,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 270,
              "UnderwritingAmount": 0,
@@ -1975,7 +1975,7 @@
              "SubType": "Containerschiffe Postpanamax",
              "ProjectAmount": 272,
              "Currency": "USD",
-             "FXrateEUR": "1.1349",
+             "FXrateEUR": 1.1349,
              "WholeSyndicationAmount": 0,
              "Amount": 0,
              "UnderwritingAmount": 0,
