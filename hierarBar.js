@@ -12,7 +12,8 @@ var color = d3.scale.ordinal()
     //.range(["steelblue", "#ccc"]);
 
 var duration = 750,
-    delay = 25;
+    delay = 25
+	shift = 200;
 
 var partition = d3.layout.partition()
     .value(function(d) { return d.ProjectAmount; });
@@ -22,10 +23,10 @@ var xAxis = d3.svg.axis()
     .orient("top");
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
+    .attr("width", width + margin.left + shift + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + (margin.left + shift) + "," + margin.top + ")");
 
 svg.append("rect")
     .attr("class", "background")
