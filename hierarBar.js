@@ -41,7 +41,7 @@ svg.append("g")
   .append("line")
     .attr("y1", "100%");
 
-d3.json("data/readme - Kopie.json", function(error, root) {
+d3.json("data/data_credit.json", function(error, root) {
   if (error) throw error;
 
   partition.nodes(root);
