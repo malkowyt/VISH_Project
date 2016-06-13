@@ -233,8 +233,16 @@ function up(d) {
       .duration(end);
 }
 
+// add the tooltip area to the webpage
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+	
 // Creates a set of bars for the given data node, at the specified index.
 function bar(d) {
+  include('wz_tooltip.js');
+  var optList = document.getElementById("optionCurrency");
+  var selOpt = optList.options[optList.selectedIndex].value;
   var bar = svg.insert("g", ".y.axis")
       .attr("class", "enter")
       .attr("transform", "translate(0,5)")
@@ -242,8 +250,17 @@ function bar(d) {
       .data(d.children)
     .enter().append("g")
       .style("cursor", function(d) { return !d.children ? null : "pointer"; })
-      .on("click", down);
-
+      .on("click", down)
+      .on("mouseover", function(d) {
+			var total = totalSum(d, "ProjectAmount");
+			//return total
+			//Tip(Math.round(convertCurrency(x(d.ProjectAmount), x(d.Currency), x(d.FXrateEUR)) * 100) / 100 + " "  + selOpt);
+			Tip(Math.round(total * 100) / 100 + " " + selOpt);
+		})
+	  	.on("mouseout", function(d){
+			UnTip();
+		});
+	  
   bar.append("text")
       .attr("x", -6)
       .attr("y", barHeight / 2)
@@ -256,6 +273,31 @@ function bar(d) {
       .attr("height", barHeight);
 
   return bar;
+}
+
+function totalSum(d, val){
+	var total = 0;
+	if (d.children){
+		for ( var i = 0, _len = d.children.length; i < _len; i++ ) {
+			total += totalSum(d.children[i], val);
+		}
+	} else {
+		total += d[val];
+	}
+	return total;
+}
+
+function include(file)
+{
+    var script = document.createElement('script');
+    var type = document.createAttribute('type');
+    type.value = 'text/javascript';
+    script.setAttributeNode(type);
+    var source = document.createAttribute('src');
+    source.value = file;
+    script.setAttributeNode(source);
+    var head = document.getElementsByTagName('head')[0];
+    head.appendChild(script);
 }
 
 // A stateful closure for stacking bars horizontally.
