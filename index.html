@@ -26,6 +26,16 @@
 </div>-->
 
 <div class="dropdown" onchange="changeCurrency()">
+    <label for="optionAmount">Amount</label>
+    <select id="optionAmount">
+        <option value="ProjectAmount">Project Amount</option>
+        <option value="WholeSyndicationAmount">Whole Syndication Amount</option>
+        <option value="Amount">Amount</option>
+        <option value="UnderwritingAmount">Underwriting Amount</option>
+        <option value="OwnSynAmount">Own Syn Amount</option>
+        <option value="FinalTakeAmount">Final Take Amount</option>
+    </select>
+    <br>
     <label id="lblOptionCurrency" for="optionCurrency">Currency</label>
     <select id="optionCurrency">
         <option value="EUR">EUR</option>
@@ -33,11 +43,11 @@
         <option value="USD">USD</option>
     </select>
 </div>
-<div class="dropdown" onchange="changePercVal()">
+<!--<div class="dropdown" onchange="changePercVal()">
     <label for="option">Scale</label>
     <select id="option">
         <option value="percentage">Percentage</option>
         <option value="currency">Currency</option>
     </select>
-</div>
+</div>-->
 </body>

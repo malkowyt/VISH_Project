@@ -18,7 +18,7 @@ function initChart() {
 
     var partition = d3.layout.partition()
         .value(function (d) {
-            return convertCurrency(d.ProjectAmount, d.Currency, d.FXrateEUR);
+            return convertCurrency(d[getOptionAmount()], d.Currency, d.FXrateEUR);
         });
 
 
@@ -241,8 +241,9 @@ function initChart() {
             })
             .on("click", down)
             .on("mouseover", function (d) {
-                var total = totalSum(d, "ProjectAmount");
-                Tip(total + " " + selOpt);
+                var optionAmount = getOptionAmount();
+                var total = totalSum(d, optionAmount);
+                Tip(total + " " + selOpt + "<br>" + round(d[optionAmount + "Pct"] * 100) + "&nbsp;%");
             })
             .on("mouseout", function (d) {
                 UnTip();
@@ -286,27 +287,11 @@ function totalSum(d, val) {
     } else {
         total += convertCurrency(d[val], d.Currency, d.FXrateEUR);
     }
-    return Math.round(total * 100) / 100;
+    return round(total);
 }
 
 function changeCurrency() {
     initChart();
-}
-
-function changePercVal() {
-    var optList = document.getElementById("option");
-    var selOpt = optList.options[optList.selectedIndex].value;
-    var setDisp = selOpt === 'currency' ? '' : 'hidden';
-    document.getElementById("optionCurrency").style.visibility = setDisp;
-    document.getElementById("lblOptionCurrency").style.visibility = setDisp;
-}
-
-function setView() {
-    var optList = document.getElementById("option");
-    var selOpt = optList.options[optList.selectedIndex].value;
-    var setDisp = selOpt === 'currency' ? '' : 'hidden';
-    document.getElementById("optionCurrency").style.visibility = setDisp;
-    document.getElementById("lblOptionCurrency").style.visibility = setDisp;
 }
 
 function postProcessData(data) {
@@ -353,13 +338,22 @@ function convertCurrency(Amount, Currency, FXrateEUR) {
                 break;
         }
 
-        return Math.round(Amount * ratio * 100) / 100;
+        return round(Amount * ratio);
     }
+}
+
+function round(value) {
+    return Math.round(value * 100) / 100;
+}
+
+function getOptionAmount() {
+    var optList = document.getElementById("optionAmount");
+    return optList.options[optList.selectedIndex].value;
 }
 
 function init() {
     initChart();
-    setView();
+    //setView();
 }
 
 window.onload = init;

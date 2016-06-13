@@ -78,7 +78,11 @@ ul {
 	float: right;
     /*position: absolute;*/
     display: block;
-	margin: 5px;
+	margin: 10px;
+}
+
+.dropdown > * {
+    margin-bottom: 10px;
 }
 .dropdownCurr {
 	float: right;
