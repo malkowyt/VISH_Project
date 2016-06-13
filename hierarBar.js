@@ -16,15 +16,38 @@ function initChart() {
         delay = 25,
         shift = 200;
 
-    var partition = d3.layout.partition()
-        .value(function (d) {
-            return convertCurrency(d.ProjectAmount, d.Currency, d.FXrateEUR);
-        });
+var partition = d3.layout.partition()
+    .value(function(d) { return convertCurrency(d.ProjectAmount, d.Currency, d.FXrateEUR); });
 
-
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("top");
+function convertCurrency(Amount, Currency, FXrateEUR){
+	var ratio;
+	var optList = document.getElementById("optionCurrency");
+    var selOpt = optList.options[optList.selectedIndex].value;
+    
+	if (Currency == selOpt){
+		return Amount;
+	} else {
+		switch (selOpt){
+			case "EUR":
+				ratio = 1 / FXrateEUR;
+				break;
+			case "USD":
+				ratio = 1 / FXrateEUR * 1.1349;
+				break;
+			case "GBP":
+				ratio = 1 / FXrateEUR * 0.7872;
+				break;
+		}
+		
+		return Math.round(Amount * ratio * 100) / 100;
+	}
+}
+	
+	
+	
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top");
 
     d3.select('svg').remove();
 
@@ -242,7 +265,7 @@ function initChart() {
             .on("click", down)
             .on("mouseover", function (d) {
                 var total = totalSum(d, "ProjectAmount");
-                Tip(Math.round(total * 100) / 100 + " " + selOpt);
+                Tip(total + " " + selOpt);
             })
             .on("mouseout", function (d) {
                 UnTip();
@@ -266,6 +289,16 @@ function initChart() {
         return bar;
     }
 
+function totalSum(d, val){
+	var total = 0;
+	if (d.children){
+		for ( var i = 0, _len = d.children.length; i < _len; i++ ) {
+			total += totalSum(d.children[i], val);
+		}
+	} else {		
+		total += convertCurrency(d[val], d.Currency, d.FXrateEUR);
+	}
+	return Math.round(total * 100) / 100;
 // A stateful closure for stacking bars horizontally.
     function stack(i) {
         var x0 = 0;
@@ -279,18 +312,6 @@ function initChart() {
 
 function changeCurrency() {
     initChart();
-}
-
-function totalSum(d, val) {
-    var total = 0;
-    if (d.children) {
-        for (var i = 0, _len = d.children.length; i < _len; i++) {
-            total += totalSum(d.children[i], val);
-        }
-    } else {
-        total += d[val];
-    }
-    return total;
 }
 
 function changePercVal() {
@@ -331,30 +352,6 @@ function postProcessData(data) {
             });
         });
     })
-}
-
-function convertCurrency(Amount, Currency, FXrateEUR) {
-    var ratio;
-    var optList = document.getElementById("optionCurrency");
-    var selOpt = optList.options[optList.selectedIndex].value;
-
-    if (Currency == selOpt) {
-        return Amount;
-    } else {
-        switch (selOpt) {
-            case "EUR":
-                ratio = 1 / FXrateEUR;
-                break;
-            case "USD":
-                ratio = 1 / FXrateEUR * 1.1349;
-                break;
-            case "GBP":
-                ratio = 1 / FXrateEUR * 0.7872;
-                break;
-        }
-
-        return Amount * ratio;
-    }
 }
 
 function init() {
