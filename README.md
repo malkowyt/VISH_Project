@@ -8,7 +8,7 @@
 - [ ] Interaktivität beim Scatterplot
 - [ ] Piechart erstellen
 - [ ] Betrag als Text anzeigen
-- [ ] Corporates in Unterbereiche einteilen
+- [x] Corporates in Unterbereiche einteilen
 
 ### Feinschliff
 - [ ] Bei Währungswechsel auf gleicher Ebene bleiben

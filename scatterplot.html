@@ -2,7 +2,7 @@
 <!--
  | Simple D3 example showing a bubble chart of traffic data.
  | Volker Ahlers, Hochschule Hannover, 2012.
- |
+ | Edited by: Thomas Malkowytsch and Henrik Wall
  | Code based on chapters 2 and 3 of
  |   Dewar, M.: Getting Started with D3. O'Reilly, Sebastopol, CA, 2012.
  | Data source (book webpage):
@@ -100,7 +100,7 @@ d3.csv("data/data_credit.csv", function(data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("UnderwritingAmount");
+      .text("UnderwritingAmount USD");
 
   // draw dots
   svg.selectAll(".dot")
@@ -131,7 +131,7 @@ d3.csv("data/data_credit.csv", function(data) {
       .data(color.domain())
     .enter().append("g")
       .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(0," + i * 12 + ")"; });
+      .attr("transform", function(d, i) { return "translate(0," + i * 14 + ")"; });
 
   // draw legend colored rectangles
   legend.append("rect")
@@ -149,10 +149,11 @@ d3.csv("data/data_credit.csv", function(data) {
       .text(function(d) { return d;})
         svg.select(".legend").append("text")
                 .attr("x", width)
-                .attr("y", -10)
+                .attr("y", -13)
                 .attr("dy", ".35em")
                 .style("text-anchor", "end")
-                .text("AssetType");
+				.style("font-weight","bold")
+                .text("AssetTypen");
 });
 
 </script>

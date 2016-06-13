@@ -5,11 +5,11 @@
      "name": "Aviation",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal20",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 100,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -21,7 +21,7 @@
            },
            {
              "name": "Deal25",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 114,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -33,7 +33,7 @@
            },
            {
              "name": "Deal28",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 123.5,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -45,7 +45,7 @@
            },
            {
              "name": "Deal40",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 497,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -57,7 +57,7 @@
            },
            {
              "name": "Deal41",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 670,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -69,7 +69,7 @@
            },
            {
              "name": "Deal42",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 200,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -581,11 +581,11 @@
      "name": "Corporate",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal44",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 25,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -597,7 +597,7 @@
            },
            {
              "name": "Deal45",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 26.802,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -609,7 +609,7 @@
            },
            {
              "name": "Deal46",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 30,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -621,7 +621,7 @@
            },
            {
              "name": "Deal47",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 30,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -633,7 +633,7 @@
            },
            {
              "name": "Deal48",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 31.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -645,7 +645,7 @@
            },
            {
              "name": "Deal49",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 32.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -657,7 +657,7 @@
            },
            {
              "name": "Deal50",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 40,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -669,7 +669,7 @@
            },
            {
              "name": "Deal51",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 43,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -678,10 +678,14 @@
              "UnderwritingAmount": 32,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 32
-           },
+           }
+		   ]},
+		   {
+         "name": "public sector",
+         "children": [
            {
              "name": "Deal52",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 46,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -693,7 +697,7 @@
            },
            {
              "name": "Deal53",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 47,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -705,7 +709,7 @@
            },
            {
              "name": "Deal54",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 50,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -717,7 +721,7 @@
            },
            {
              "name": "Deal55",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 60,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -729,7 +733,7 @@
            },
            {
              "name": "Deal56",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 63,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -741,7 +745,7 @@
            },
            {
              "name": "Deal57",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 75,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -753,7 +757,7 @@
            },
            {
              "name": "Deal58",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 75,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -765,7 +769,7 @@
            },
            {
              "name": "Deal59",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 80,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -777,7 +781,7 @@
            },
            {
              "name": "Deal60",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 81.91,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -789,7 +793,7 @@
            },
            {
              "name": "Deal61",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 135.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -801,7 +805,7 @@
            },
            {
              "name": "Deal62",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 145,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -813,7 +817,7 @@
            },
            {
              "name": "Deal63",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 150,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -825,7 +829,7 @@
            },
            {
              "name": "Deal64",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 150,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -837,7 +841,7 @@
            },
            {
              "name": "Deal65",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 161,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -849,7 +853,7 @@
            },
            {
              "name": "Deal66",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 200,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -861,7 +865,7 @@
            },
            {
              "name": "Deal67",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 200,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -873,7 +877,7 @@
            },
            {
              "name": "Deal68",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 230,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -885,7 +889,7 @@
            },
            {
              "name": "Deal69",
-             "SubType": 0,
+             "SubType": "public sector",
              "ProjectAmount": 250,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -894,10 +898,15 @@
              "UnderwritingAmount": 25,
              "OwnSynAmount": 0,
              "FinalTakeAmount": 25
-           },
+           }
+         ]
+       },
+       {
+         "name": "private sector",
+         "children": [
            {
              "name": "Deal70",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 300,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -909,7 +918,7 @@
            },
            {
              "name": "Deal71",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 300,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -921,7 +930,7 @@
            },
            {
              "name": "Deal72",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 330,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -933,7 +942,7 @@
            },
            {
              "name": "Deal73",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 360,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -945,7 +954,7 @@
            },
            {
              "name": "Deal74",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 500,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -957,7 +966,7 @@
            },
            {
              "name": "Deal75",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 625,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -969,7 +978,7 @@
            },
            {
              "name": "Deal76",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 750,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -981,7 +990,7 @@
            },
            {
              "name": "Deal77",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 830,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -993,7 +1002,7 @@
            },
            {
              "name": "Deal78",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 1140,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1005,7 +1014,7 @@
            },
            {
              "name": "Deal79",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 165.2,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1017,7 +1026,7 @@
            },
            {
              "name": "Deal80",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 64,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1029,7 +1038,7 @@
            },
            {
              "name": "Deal81",
-             "SubType": 0,
+             "SubType": "private sector",
              "ProjectAmount": 38.7,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1047,11 +1056,11 @@
      "name": "Energy",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal94",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 154.4,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1334,11 +1343,11 @@
      "name": "Infrastructure",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal112",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 65,
              "Currency": "GBP",
              "FXrateEUR": 0.7872,
@@ -1350,7 +1359,7 @@
            },
            {
              "name": "Deal118",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 147,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1612,11 +1621,11 @@
      "name": "other",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal122",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 125,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1628,7 +1637,7 @@
            },
            {
              "name": "Deal123",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 16.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1640,7 +1649,7 @@
            },
            {
              "name": "Deal124",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 41.7,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1652,7 +1661,7 @@
            },
            {
              "name": "Deal125",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 600,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1670,11 +1679,11 @@
      "name": "RealEstate",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal126",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 37.5,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1686,7 +1695,7 @@
            },
            {
              "name": "Deal127",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 120,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1704,11 +1713,11 @@
      "name": "RollingStock",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal129",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 3100,
              "Currency": "EUR",
              "FXrateEUR": 1,
@@ -1743,11 +1752,11 @@
      "name": "Ship",
      "children": [
        {
-         "name": "0",
+         "name": "other",
          "children": [
            {
              "name": "Deal131",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 40.975,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1759,7 +1768,7 @@
            },
            {
              "name": "Deal136",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 92.1,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1771,7 +1780,7 @@
            },
            {
              "name": "Deal141",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 174.25,
              "Currency": "USD",
              "FXrateEUR": 1.1349,
@@ -1783,7 +1792,7 @@
            },
            {
              "name": "Deal142",
-             "SubType": 0,
+             "SubType": "other",
              "ProjectAmount": 245,
              "Currency": "EUR",
              "FXrateEUR": 1,

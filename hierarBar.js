@@ -282,6 +282,15 @@ function changePercVal(){
   document.getElementById("lblOptionCurrency").style.visibility = setDisp;
 }
 function changeCurrency(){
-  //TODO change view
-  document.location.reload();
+  //TODO change view  
+  d3.json("data/data_credit.json", function(error, root) {
+  if (error) throw error;
+
+  postProcessData(root);
+
+  partition.nodes(root);
+  x.domain([0, root.value]).nice();
+  down(root,0);
+});
+  //document.location.reload();
 }
