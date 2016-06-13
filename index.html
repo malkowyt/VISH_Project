@@ -4,8 +4,9 @@
     <title>VISH Project</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="d3.js"></script>
+    <script src="hierarBar.js"></script>
 </head>
-<body onload="setView()">
+<body>
 <h1>Overview Credits</h1>
 <ul>
     <li><a class="active" href="index.html">Barchart</a></li>
@@ -13,7 +14,7 @@
     <li><a href="about.html">About</a></li>
 </ul>
 <h2>Segment View</h2>
-<script src="hierarBar.js"></script>
+<div id="svg"></div>
 
 <!--<div class="dropdown">
  <button class="dropbtn">Scale</button>
@@ -38,18 +39,4 @@
         <option value="currency">Currency</option>
     </select>
 </div>
-<script>
-function setView(){
-  var optList = document.getElementById("option");
-  var selOpt = optList.options[optList.selectedIndex].value;
-  var setDisp;
-  if (selOpt == "currency") {
-	  setDisp = '';
-  } else {
-	  setDisp = 'hidden';
-  }
-  document.getElementById("optionCurrency").style.visibility = setDisp;
-  document.getElementById("lblOptionCurrency").style.visibility = setDisp;
-}	
-</script>
 </body>
