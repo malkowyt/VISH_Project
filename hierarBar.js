@@ -290,10 +290,6 @@ function totalSum(d, val) {
     return round(total);
 }
 
-function changeCurrency() {
-    initChart();
-}
-
 function postProcessData(data) {
     ["ProjectAmount", "WholeSyndicationAmount", "Amount", "UnderwritingAmount", "OwnSynAmount", "FinalTakeAmount"].forEach(amount => {
         var amountEur = amount + "EUR",
@@ -351,9 +347,4 @@ function getOptionAmount() {
     return optList.options[optList.selectedIndex].value;
 }
 
-function init() {
-    initChart();
-    //setView();
-}
-
-window.onload = init;
+window.onload = initChart;
