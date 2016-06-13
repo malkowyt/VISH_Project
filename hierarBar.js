@@ -38,7 +38,7 @@ function convertCurrency(Amount, Currency, FXrateEUR){
 				break;
 		}
 		
-		return Amount * ratio;
+		return Math.round(Amount * ratio * 100) / 100;
 	}
 }
 	
@@ -253,7 +253,7 @@ function bar(d) {
       .on("click", down)
       .on("mouseover", function(d) {
 			var total = totalSum(d, "ProjectAmount");
-			Tip(Math.round(total * 100) / 100 + " " + selOpt);
+			Tip(total + " " + selOpt);
 		})
 	  	.on("mouseout", function(d){
 			UnTip();
@@ -282,7 +282,7 @@ function totalSum(d, val){
 	} else {		
 		total += convertCurrency(d[val], d.Currency, d.FXrateEUR);
 	}
-	return total;
+	return Math.round(total * 100) / 100;
 }
 
 function include(file)
