@@ -7,7 +7,7 @@
 - [ ] Prozentwerte anzeigen
 - [ ] Interaktivität beim Scatterplot
 - [ ] Piechart erstellen
-- [ ] Betrag als Text anzeigen
+- [x] Betrag als Text anzeigen
 - [x] Corporates in Unterbereiche einteilen
 
 ### Feinschliff
