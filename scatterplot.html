@@ -120,6 +120,7 @@
                 .attr("x", width)
                 .attr("y", -6)
                 .style("text-anchor", "end")
+                .text("FinalTakeAmount [in Mio]");
 
         // y-axis
         svg.append("g")
@@ -131,6 +132,7 @@
                 .attr("y", 6)
                 .attr("dy", ".71em")
                 .style("text-anchor", "end")
+                .text("UnderwritingAmount [in Mio]");
 
         // draw dots
         svg.selectAll(".dot")
