@@ -253,8 +253,6 @@ function bar(d) {
       .on("click", down)
       .on("mouseover", function(d) {
 			var total = totalSum(d, "ProjectAmount");
-			//return total
-			//Tip(Math.round(convertCurrency(x(d.ProjectAmount), x(d.Currency), x(d.FXrateEUR)) * 100) / 100 + " "  + selOpt);
 			Tip(Math.round(total * 100) / 100 + " " + selOpt);
 		})
 	  	.on("mouseout", function(d){
@@ -281,8 +279,8 @@ function totalSum(d, val){
 		for ( var i = 0, _len = d.children.length; i < _len; i++ ) {
 			total += totalSum(d.children[i], val);
 		}
-	} else {
-		total += d[val];
+	} else {		
+		total += convertCurrency(d[val], d.Currency, d.FXrateEUR);
 	}
 	return total;
 }
