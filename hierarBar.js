@@ -16,29 +16,29 @@ var duration = 750,
 	shift = 200;
 
 var partition = d3.layout.partition()
-    .value(function(d) { return convertCurrency(d); });
+    .value(function(d) { return convertCurrency(d.ProjectAmount, d.Currency, d.FXrateEUR); });
 
-function convertCurrency(d){
+function convertCurrency(Amount, Currency, FXrateEUR){
 	var ratio;
 	var optList = document.getElementById("optionCurrency");
     var selOpt = optList.options[optList.selectedIndex].value;
     
-	if (d.Currency == selOpt){
-		return d.ProjectAmount;
+	if (Currency == selOpt){
+		return Amount;
 	} else {
 		switch (selOpt){
 			case "EUR":
-				ratio = 1 / d.FXrateEUR;
+				ratio = 1 / FXrateEUR;
 				break;
 			case "USD":
-				ratio = 1 / d.FXrateEUR * 1.1349;
+				ratio = 1 / FXrateEUR * 1.1349;
 				break;
 			case "GBP":
-				ratio = 1 / d.FXrateEUR * 0.7872;
+				ratio = 1 / FXrateEUR * 0.7872;
 				break;
 		}
 		
-		return d.ProjectAmount * ratio;
+		return Amount * ratio;
 	}
 }
 	

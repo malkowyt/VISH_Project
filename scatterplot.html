@@ -36,7 +36,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
  */
 
 // setup x
-var xValue = function(d) { return d["FinalTakeAmount"];}, // data -> value
+var xValue = function(d) { return convertCurrency(d["FinalTakeAmount"], d["Currency"], d["FXrateEUR"]);}, // data -> value
     xScale = d3.scale.linear().range([0, width]), // value -> display
     xMap = function(d) { return xScale(xValue(d));}, // data -> display
     xAxis = d3.svg.axis().scale(xScale).orient("bottom");
@@ -46,7 +46,29 @@ var yValue = function(d) { return d["UnderwritingAmount"];}, // data -> value
     yScale = d3.scale.linear().range([height, 0]), // value -> display
     yMap = function(d) { return yScale(yValue(d));}, // data -> display
     yAxis = d3.svg.axis().scale(yScale).orient("left");
-
+	
+function convertCurrency(Amount, Currency, FXrateEUR){
+	var ratio;
+	var optList = document.getElementById("optionCurrency");
+    var selOpt = optList.options[optList.selectedIndex].value;
+	if (Currency == selOpt){
+		return Amount;
+	} else {
+		switch (selOpt){
+			case "EUR":
+				ratio = 1 / FXrateEUR;
+				break;
+			case "USD":
+				ratio = 1 / FXrateEUR * 1.1349;
+				break;
+			case "GBP":
+				ratio = 1 / FXrateEUR * 0.7872;
+				break;
+		}
+		
+		return Amount * ratio;
+	}
+}
 // setup fill color
 var cValue = function(d) { return d["AssetType"];},
     color = d3.scale.category10();
@@ -156,6 +178,17 @@ d3.csv("data/data_credit.csv", function(data) {
                 .text("AssetTypen");
 });
 
+function changeCurrency(){
+  document.location.reload();
+  };
 </script>
+<div class="dropdown" onchange="changeCurrency()">
+    <label id="lblOptionCurrency" for="optionCurrency">Currency</label>
+    <select id="optionCurrency">
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+    </select>
+</div>
 </body>
 </html>
